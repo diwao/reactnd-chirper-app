@@ -7,7 +7,6 @@ export default function tweets(state = {}, action) {
         ...state,
         ...action.tweets,
       };
-
     default:
       return state;
   }
