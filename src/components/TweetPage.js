@@ -9,7 +9,6 @@ class TweetPage extends Component {
 
     return (
       <div>
-        <p>Tweet Page</p>
         <Tweet id={id} />
         <NewTweet id={id} />
         {replies.length !== 0 && <h3 className="center">Replies</h3>}
